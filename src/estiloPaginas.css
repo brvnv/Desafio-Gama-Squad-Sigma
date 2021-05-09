@@ -1,11 +1,8 @@
 
-/*Atribuido uso total da pagina com o height:100*/
+/*Atribuido uso total da pagina com o height:100*/ /*Atribuido imagem de background*/
 body{
     height: 100%;
     margin: 0;
-}
-/*Atribuido imagem de background*/
-.background{
     background-image: url("img/virus.jpg");
     background-size: cover;
     background-position: center;
@@ -116,7 +113,7 @@ ul {
     color: orangered;
 }
 
-article{
+.membros{
     border: rgb(153, 248, 0) 2px solid;
     border-radius: 5px;
     background-color: #f3f3f3;
