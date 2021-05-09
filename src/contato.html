@@ -2,8 +2,10 @@
 <html>
 <head>
 <title>Contato | Sigma News</title>
+<link rel="stylesheet" href="estiloPaginas.css" />
 </head>
-<body class="background">
+
+<body >
  
   <div id="cabecalho" style="color: orangered;">
   <h1>
@@ -11,16 +13,16 @@
   </h1>
 </div>
 <div class="fundoConteudo">
-  <div id="menu" style=>
+  <div>
     <ul>
-      <li><a id="itemMenu" href="index.html"> Home</a></li>
+      <li><a href="index.html"> Home</a></li>
       <li><a href="sobre.html">Sobre nós</a></li>
       <li><a href="saibamais.html">Saiba mais</a></li>
       <li><a href="contato.html">Contato</a></li>
     </ul>
   </div>
   <br>
-  <div id="logoCovid">
+  <div>
     <div>
       <p>
       <img id="logo" src="img/banner.jpg"/> 
@@ -34,10 +36,12 @@
      </h2>
     <br>
     <form action="mailto:bruno.rdx@metalfan.com" method="post" enctype="multipart/form-data" name="contactForm">
-      e-mail:<input type="email" placeholder="Digite seu e-mail" name="contactName">
-      Assunto:<input type="text" placeholder="Assunto" name="subject">
+      e-mail: <input type="email" placeholder="Digite seu e-mail" name="contactName">
+      Assunto: <input type="text" placeholder="Assunto" name="subject">
       <br>
-      Mensagem:<textarea name="body" placeholder="Digite sua mensagem"> </textarea>
+      <br>
+      Mensagem:<br>
+      <textarea name="body" placeholder="Digite sua mensagem"> </textarea>
       <br>
       <input type="submit" value="Enviar">
     </form>

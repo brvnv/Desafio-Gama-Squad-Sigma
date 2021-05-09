@@ -80,7 +80,7 @@ ul {
   }
   
   li a {
-    display: block;
+    display: flex;
     color: orangered;
     font-family: Arial;
     text-align: center;
@@ -118,6 +118,8 @@ ul {
     border-radius: 5px;
     background-color: #f3f3f3;
     padding: 10px;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 h2{
     color: orangered;
@@ -125,4 +127,14 @@ h2{
 
 h3{
     color: orangered;
+}
+
+.links{
+   display: flex;
+    color: orangered;
+    font-family: Arial;
+    text-align: center;
+    padding: 14px 16px;
+    font-weight: bold;
+    text-decoration: unset;
 }
