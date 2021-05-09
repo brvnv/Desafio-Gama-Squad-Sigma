@@ -3,11 +3,14 @@
 body{
     height: 100%;
     margin: 0;
+}
+/*Atribuido imagem de background*/
+.background{
     background-image: url("img/virus.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-  }
+}
 /* Cabecalho em um bloco a parte com bordas proprias*/
 #cabecalho {
     border: rgb(153, 248, 0) 2px solid;
