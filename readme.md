@@ -14,3 +14,5 @@ O repositório foi dividido em duas branches: Master, com a versão de produçã
 Foi um grande aprendizado para todo o time, já que conseguimos reunir membros no básico, no intermediário e no avançado em cada etapa, um aprendendo com a experiência do outro.
 
 Mesmo os membros que não concluiram o desafio conosco contribuiram com a bagagem que traziam de outras áreas.
+
+Você pode conferir o resultado desse experimento desafiador [aqui](https://squadsigma.netlify.com)
